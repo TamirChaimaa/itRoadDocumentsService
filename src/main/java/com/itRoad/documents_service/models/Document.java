@@ -24,8 +24,6 @@ public class Document {
     private String name;
 
      // Document type (e.g., PDF, DOCX, JPG, etc.)
-    @NotBlank(message = "Document type is required")
-    @Column(nullable = false)
     private String type;
 
     // Document category
