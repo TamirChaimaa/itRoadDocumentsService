@@ -1,0 +1,13 @@
+package com.itRoad.documents_service;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class DocumentsServiceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(DocumentsServiceApplication.class, args);
+	}
+
+}
