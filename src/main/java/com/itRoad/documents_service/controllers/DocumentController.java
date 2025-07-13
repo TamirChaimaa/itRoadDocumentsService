@@ -98,7 +98,7 @@ public class DocumentController {
                     .body(data);
         } catch (IOException e) {
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
-                    .body(new ApiResponse<>(false, "Could not download file: " + e.getMessage(), null));
+                    .body(new ApiResponse<>(false, "Could not download the file: " + e.getMessage(), null));
         }
     }
 
